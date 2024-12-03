@@ -7,6 +7,7 @@ Traverse through the array:
 If the current element is greater than first, update second to first, and then set first to the current element.
 If the current element is less than first but greater than second, update second.
 If no valid second largest element is found, return -1.
+
 2.Edge Cases:
 If all elements are the same, return -1.
 If the array has only two distinct elements, return the smaller of the two if it’s not equal to the largest.
