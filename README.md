@@ -11,7 +11,6 @@ If no valid second largest element is found, return -1.
 If all elements are the same, return -1.
 If the array has only two distinct elements, return the smaller of the two if it’s not equal to the largest.
 Code (Python)
-
 class Solution:
     def getSecondLargest(self, arr):
         first = float('-inf')
@@ -22,5 +21,4 @@ class Solution:
                 first = num
             elif num > second and num < first:
                 second = num
-
-        return -1 if second == float('-inf') else second
+     return -1 if second == float('-inf') else second
