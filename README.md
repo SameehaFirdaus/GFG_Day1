@@ -1,6 +1,6 @@
 # 160_GFG_Day1
 Given an array of positive integers arr[], return the second largest element from the array. If the second largest element doesn't exist, return -1.  Note: The second largest element should not be equal to the largest element.
-🎯 My Approach:
+<h2>🎯 My Approach</h2>h2>:
 1.Tracking Largest and Second Largest:
 Initialize two variables, first and second, to the smallest possible values.
 Traverse through the array:
