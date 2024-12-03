@@ -10,15 +10,3 @@ If no valid second largest element is found, return -1.
 2.Edge Cases:
 If all elements are the same, return -1.
 If the array has only two distinct elements, return the smaller of the two if it’s not equal to the largest.
-Code (Python)
-class Solution:
-    def getSecondLargest(self, arr):
-        first = float('-inf')
-        second = float('-inf')
-        for num in arr:
-            if num > first:
-                second = first
-                first = num
-            elif num > second and num < first:
-                second = num
-     return -1 if second == float('-inf') else second
